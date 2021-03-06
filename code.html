@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link href = "code.css" rel = "stylesheet"></link>
+		<title>lOl</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<body>
+		
+		<div id = "cont" style="background-image: url('https://media1.thehungryjpeg.com/thumbs2/ori_3750585_15lt7mch2uktte5uqypcg8g8g39xf3pubhp2eme0_camouflage-pattern-background-virtual-background-for-zoom.jpg');">
+			<div id = "box1">
+				<div id = "box2">
+					TEXT<input id = "text"></input>
+					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+					KEY<input id = "key" type="number"></input>
+				</div>
+				<div id = "box3">
+					<button id = "encrypt" onclick = "encrypt()"> ENCRYPT</button>
+					<div>&nbsp;&nbsp;&nbsp;</div>
+					<button id = "decrypt" onclick = "decrypt()"> DECRYPT</button>
+				</div>
+				<div id = "box4">
+					RESULT<input id = "result" readonly></input>
+				</div>
+			</div>
+		</div>
+		
+		
+		<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+		<script>
+		  // Your web app's Firebase configuration
+		  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+		  var firebaseConfig = {
+			apiKey: "AIzaSyB21l2qLfH5tlumukjnGgHr5UxprZ1lv-A",
+			authDomain: "test-789f5.firebaseapp.com",
+			databaseURL: "https://test-789f5-default-rtdb.firebaseio.com",
+			projectId: "test-789f5",
+			storageBucket: "test-789f5.appspot.com",
+			messagingSenderId: "855451924946",
+			appId: "1:855451924946:web:cbc399bf6014154d98300b",
+			measurementId: "G-W0QRQQVQGH"
+		  };
+		  // Initialize Firebase
+		  firebase.initializeApp(firebaseConfig);
+		</script>
+		
+		<script src = "code.js"></script>
+	</body>
+<html>
